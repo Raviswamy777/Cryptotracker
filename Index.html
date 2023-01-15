@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Crypto tracker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+        <h1 class="col-md-7 text-center">Crypto Tracker</h1>
+        <h4 class="col-md-7 text-center">By Ravi</h4>
+        <div class="col-md-6 row justifiy-content-center">
+            <div class ="col-12">
+            <form action="" id="searchForm">
+                <div class="form-row">
+                    <div class="col-12 form-group">
+                        <label for="xyz"><b>coin type</b></label>
+                        <select name="coinType" class="form-control" id="xyz">
+                            <option value="bitcoin">Bitcoin</option>
+                            <option value="dogecoin">Dogecoin</option>
+                            <option value="etherum">Etherum</option>
+                            <option value="bpolkadot">polkadot</option>
+                            <option value="tether">Tether</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="submit" class="col-12 btn btn-primary">Get Price</button>
+            </form>
+        </div>
+    </div>
+          <div class="col-md-7 text-center row justify-content-center">
+                <table class="col-md-7 m-2" border="1px" id="tableResult">
+                    
+                </table>
+                 </div>        
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="rapp.js"></script>
+    
+    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } };
+     (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; 
+     script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); 
+     script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) 
+     { var w = new PCWidget({c: '516d4471-cf56-4085-8f2a-6f2a0e8d4126', f: true }); done = true; } }; })();</script>
+
+    <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-9M7R519QM0"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9M7R519QM0');
+     </script>
+</body>
+</html>     
